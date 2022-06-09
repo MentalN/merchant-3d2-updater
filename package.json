@@ -1,0 +1,21 @@
+{
+  "name": "three-d-enabler",
+  "version": "1.0.0",
+  "description": "Receives merchant list input, and toggles 3DS2 for all those merchants using MPGS MSO API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MPGS"
+  ],
+  "author": "Nawaf Abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}

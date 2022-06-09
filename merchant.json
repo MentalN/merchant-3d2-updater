@@ -1,0 +1,750 @@
+{
+    "merchant": {
+        "acquirerLink": {
+            "CBA_S2I01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "CBA_S2I",
+                "allowableTransactionFrequency": [
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "INTERNET",
+                    "MERCHANT"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        }
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069",
+                            "cardAcceptorTerminalId": "42069"
+                        }
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "MASTERCARD",
+                    "VISA"
+                ],
+                "currency": [
+                    "AUD",
+                    "GBP",
+                    "USD"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "enforceCscOnTransactionSource": [
+                    "INTERNET"
+                ],
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "DISABLED",
+                "terminalId": [
+                    "CBA001",
+                    "CBA002",
+                    "CBA003",
+                    "CBA004",
+                    "CBA005"
+                ]
+            },
+            "CISTEST_S2I01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "CISTEST_S2I",
+                "allowableTransactionFrequency": [
+                    "INSTALLMENTS",
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "INTERNET",
+                    "MERCHANT",
+                    "MAIL_ORDER",
+                    "MOTO",
+                    "TELEPHONE_ORDER"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069",
+                            "cardAcceptorTerminalId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "AMEX",
+                    "DINERS_CLUB",
+                    "DISCOVER",
+                    "MASTERCARD",
+                    "VISA"
+                ],
+                "currency": [
+                    "AED",
+                    "AFN",
+                    "ALL",
+                    "AMD",
+                    "ANG",
+                    "AOA",
+                    "AON",
+                    "ARS",
+                    "ATS",
+                    "AUD",
+                    "AWG",
+                    "AZN",
+                    "BAM",
+                    "BBD",
+                    "BDT",
+                    "BEF",
+                    "BGN",
+                    "BHD",
+                    "BIF",
+                    "BMD",
+                    "BND",
+                    "BOB",
+                    "BRL",
+                    "BSD",
+                    "BWP",
+                    "BYN",
+                    "BYR",
+                    "BZD",
+                    "CAD",
+                    "CDF",
+                    "CHF",
+                    "CLP",
+                    "CNY",
+                    "COP",
+                    "CRC",
+                    "CSD",
+                    "CVE",
+                    "CYP",
+                    "CZK",
+                    "DEM",
+                    "DJF",
+                    "DKK",
+                    "DOP",
+                    "DZD",
+                    "ECS",
+                    "EEK",
+                    "EGP",
+                    "ERN",
+                    "ESP",
+                    "ETB",
+                    "EUR",
+                    "FIM",
+                    "FJD",
+                    "FKP",
+                    "FRF",
+                    "GBP",
+                    "GEL",
+                    "GHS",
+                    "GIP",
+                    "GMD",
+                    "GNF",
+                    "GRD",
+                    "GTQ",
+                    "GYD",
+                    "HKD",
+                    "HNL",
+                    "HRK",
+                    "HTG",
+                    "HUF",
+                    "IDR",
+                    "IEP",
+                    "ILS",
+                    "INR",
+                    "IQD",
+                    "IRR",
+                    "ISK",
+                    "ITL",
+                    "JMD",
+                    "JOD",
+                    "JPY",
+                    "KES",
+                    "KGS",
+                    "KHR",
+                    "KMF",
+                    "KPW",
+                    "KRW",
+                    "KWD",
+                    "KYD",
+                    "KZT",
+                    "LAK",
+                    "LBP",
+                    "LKR",
+                    "LRD",
+                    "LSL",
+                    "LTL",
+                    "LUF",
+                    "LVL",
+                    "LYD",
+                    "MAD",
+                    "MDL",
+                    "MGA",
+                    "MKD",
+                    "MMK",
+                    "MNT",
+                    "MOP",
+                    "MRO",
+                    "MTL",
+                    "MUR",
+                    "MVR",
+                    "MWK",
+                    "MXN",
+                    "MYR",
+                    "MZM",
+                    "MZN",
+                    "NAD",
+                    "NGN",
+                    "NIO",
+                    "NLG",
+                    "NOK",
+                    "NPR",
+                    "NZD",
+                    "OMR",
+                    "PAB",
+                    "PEN",
+                    "PGK",
+                    "PHP",
+                    "PKR",
+                    "PLN",
+                    "PTE",
+                    "PYG",
+                    "QAR",
+                    "ROL",
+                    "RON",
+                    "RSD",
+                    "RUB",
+                    "RWF",
+                    "SAR",
+                    "SBD",
+                    "SCR",
+                    "SDD",
+                    "SEK",
+                    "SGD",
+                    "SHP",
+                    "SIT",
+                    "SKK",
+                    "SLL",
+                    "SOS",
+                    "SRD",
+                    "STD",
+                    "SVC",
+                    "SYP",
+                    "SZL",
+                    "THB",
+                    "TJS",
+                    "TMT",
+                    "TND",
+                    "TOP",
+                    "TRL",
+                    "TRY",
+                    "TTD",
+                    "TWD",
+                    "TZS",
+                    "UAH",
+                    "UGX",
+                    "USD",
+                    "UYU",
+                    "UZS",
+                    "VEB",
+                    "VES",
+                    "VND",
+                    "VUV",
+                    "WST",
+                    "XAF",
+                    "XCD",
+                    "XOF",
+                    "XPF",
+                    "YER",
+                    "ZAR",
+                    "ZMK",
+                    "ZMW",
+                    "ZWD"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "goodsDescription": "Shoes and Sneakers",
+                "lineOfBusiness": "Test",
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "DISABLED",
+                "terminalId": [
+                    "CIS0001",
+                    "CIS0002",
+                    "CIS0003",
+                    "CIS0004",
+                    "CIS0005"
+                ]
+            },
+            "GCSTEST_S2I01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "GCSTEST_S2I",
+                "allowableTransactionFrequency": [
+                    "INSTALLMENTS",
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "CALL_CENTRE",
+                    "INTERNET",
+                    "MERCHANT",
+                    "MAIL_ORDER",
+                    "MOTO",
+                    "TELEPHONE_ORDER",
+                    "VOICE_RESPONSE"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069",
+                            "cardAcceptorTerminalId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "MASTERCARD",
+                    "VISA"
+                ],
+                "currency": [
+                    "SAR",
+                    "USD"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "DISABLED",
+                "terminalId": [
+                    "CIS0001",
+                    "CIS0002",
+                    "CIS0003",
+                    "CIS0004",
+                    "CIS0005"
+                ]
+            },
+            "MADA_BSF01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "MADA_BSF",
+                "allowableTransactionFrequency": [
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "INTERNET",
+                    "MOTO"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        }
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069"
+                        }
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "MADA_MASTERCARD",
+                    "MADA_VISA"
+                ],
+                "currency": [
+                    "SAR"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "TEST_AND_PRODUCTION",
+                "terminalId": [
+                    "BSF00001",
+                    "BSF00002",
+                    "BSF00003",
+                    "BSF00004",
+                    "BSF00005"
+                ]
+            },
+            "MADA_NCB01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "MADA_NCB",
+                "allowableTransactionFrequency": [
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "INTERNET"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        }
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069",
+                            "cardAcceptorTerminalId": "42069"
+                        }
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "MADA_MASTERCARD",
+                    "MADA_VISA"
+                ],
+                "currency": [
+                    "SAR"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "enforceCscOnTransactionSource": [
+                    "INTERNET"
+                ],
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "DISABLED",
+                "terminalId": [
+                    "NCB001",
+                    "NCB002",
+                    "NCB003",
+                    "NCB004",
+                    "NCB005"
+                ]
+            },
+            "MASHREQ_S2I01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "MASHREQ_S2I",
+                "allowableTransactionFrequency": [
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "INTERNET",
+                    "MERCHANT",
+                    "MOTO"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "42069",
+                            "cardAcceptorTerminalId": "42069"
+                        },
+                        "acquirerBin": "42069"
+                    }
+                },
+                "bankMerchantId": "42069",
+                "cardType": [
+                    "AMEX",
+                    "MASTERCARD",
+                    "VISA"
+                ],
+                "currency": [
+                    "AED",
+                    "AUD",
+                    "BHD",
+                    "EUR",
+                    "SAR",
+                    "SGD",
+                    "USD"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "lineOfBusiness": "3dsemv",
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "DISABLED",
+                "terminalId": [
+                    "MQ00001",
+                    "MQ00002",
+                    "MQ00003",
+                    "MQ00004",
+                    "MQ00005"
+                ]
+            },
+            "SYSTEST_ACQ_S2I01": {
+                "accountUpdaterEnabled": false,
+                "acquirerId": "SYSTEST_ACQ_S2I",
+                "allowableTransactionFrequency": [
+                    "INSTALLMENTS",
+                    "RECURRING",
+                    "SINGLE_TRANSACTION"
+                ],
+                "allowableTransactionSource": [
+                    "CALL_CENTRE",
+                    "INTERNET"
+                ],
+                "authentication": {
+                    "masterCardSecureCode": {
+                        "3DS1": {
+                            "merchantId": "TEST42069"
+                        }
+                    },
+                    "verifiedByVisa": {
+                        "3DS1": {
+                            "cardAcceptorId": "TEST42069",
+                            "cardAcceptorTerminalId": "42069"
+                        }
+                    }
+                },
+                "bankMerchantId": "TEST42069",
+                "cardType": [
+                    "MASTERCARD",
+                    "VISA"
+                ],
+                "currency": [
+                    "AED",
+                    "AFN",
+                    "ALL",
+                    "ANG",
+                    "ARS",
+                    "AUD",
+                    "AWG",
+                    "BAM",
+                    "BDT",
+                    "BGN",
+                    "BHD",
+                    "BIF",
+                    "BND",
+                    "BRL",
+                    "BSD",
+                    "BWP",
+                    "CAD",
+                    "CHF",
+                    "CLP",
+                    "CNY",
+                    "COP",
+                    "CZK",
+                    "DJF",
+                    "DKK",
+                    "DOP",
+                    "DZD",
+                    "EEK",
+                    "EGP",
+                    "ETB",
+                    "EUR",
+                    "FJD",
+                    "GBP",
+                    "GHS",
+                    "GTQ",
+                    "HKD",
+                    "HRK",
+                    "HUF",
+                    "IDR",
+                    "ILS",
+                    "INR",
+                    "ISK",
+                    "JMD",
+                    "JOD",
+                    "JPY",
+                    "KES",
+                    "KRW",
+                    "KWD",
+                    "KZT",
+                    "LBP",
+                    "LKR",
+                    "LTL",
+                    "LVL",
+                    "LYD",
+                    "MAD",
+                    "MKD",
+                    "MMK",
+                    "MRO",
+                    "MUR",
+                    "MVR",
+                    "MXN",
+                    "MYR",
+                    "MZN",
+                    "NAD",
+                    "NGN",
+                    "NOK",
+                    "NPR",
+                    "NZD",
+                    "OMR",
+                    "PAB",
+                    "PEN",
+                    "PGK",
+                    "PHP",
+                    "PKR",
+                    "PLN",
+                    "PYG",
+                    "QAR",
+                    "RON",
+                    "RSD",
+                    "RUB",
+                    "RWF",
+                    "SAR",
+                    "SBD",
+                    "SCR",
+                    "SDD",
+                    "SEK",
+                    "SGD",
+                    "SYP",
+                    "THB",
+                    "TND",
+                    "TOP",
+                    "TRY",
+                    "TTD",
+                    "TWD",
+                    "TZS",
+                    "UAH",
+                    "UGX",
+                    "USD",
+                    "UYU",
+                    "VES",
+                    "VND",
+                    "VUV",
+                    "WST",
+                    "XAF",
+                    "XCD",
+                    "XOF",
+                    "YER",
+                    "ZAR",
+                    "ZMK",
+                    "ZMW"
+                ],
+                "defaultTransactionFrequency": "SINGLE_TRANSACTION",
+                "defaultTransactionSource": "INTERNET",
+                "enforceCscOnTransactionSource": [
+                    "INTERNET"
+                ],
+                "paymentType": [
+                    "CREDIT"
+                ],
+                "status": "TEST_AND_PRODUCTION",
+                "terminalId": [
+                    "111",
+                    "222",
+                    "333",
+                    "444",
+                    "555"
+                ]
+            }
+        },
+        "address": {
+            "city": "Julesville",
+            "countryCode": "USA",
+            "postcode": "12322",
+            "stateProvince": "NY",
+            "street1": "14 Galway St."
+        },
+        "cardMaskingFormat": "DISPLAY_6_4",
+        "categoryCode": "1234",
+        "contactName": "Carlos Jose",
+        "debtRepayment": {
+            "fundingMethods": "CREDIT,DEBIT,CHARGE"
+        },
+        "defaultOrderCertainty": "ESTIMATED",
+        "email": "nawaf97k@gmail.com",
+        "goodsDescription": "Video games and graphic cards and engines",
+        "id": "42069",
+        "locale": "en_GB",
+        "name": "Audacity Gaming",
+        "privilege": [
+            "ALLOW_ACQUIRER_TRACE_ID",
+            "ALLOW_LEVEL_2_ORDER_CREATION",
+            "AUTHORIZATIONS",
+            "AUTO_AUTH_REVERSAL_ON_EXPIRY",
+            "AUTO_AUTH_REVERSAL_ON_PARTIAL_CAPTURE",
+            "BULK_CAPTURES",
+            "CAPTURES",
+            "CASH_ADVANCE",
+            "CHANGE_MERCHANT_TRANSACTION_SOURCE",
+            "CHANGE_ORDER_CERTAINTY",
+            "CHANGE_TRANSACTION_FREQUENCY",
+            "ENABLE_REFUND_REQUESTS",
+            "ENFORCE_UNIQUE_MERCHANT_TRANSACTION_REFERENCE",
+            "ENFORCE_UNIQUE_ORDER_REFERENCE",
+            "EXCESSIVE_REFUNDS",
+            "MOTO",
+            "ORDER_DOWNLOAD",
+            "PROCESS_AUTHORIZATION_AS_PURCHASE",
+            "PURCHASES",
+            "REFUNDS",
+            "STANDALONE_CAPTURES",
+            "STANDALONE_REFUNDS",
+            "STATEMENT_DESCRIPTOR",
+            "SURCHARGE_RULES",
+            "TXN_DOWNLOAD",
+            "UPDATE_AUTHORIZATION",
+            "VIEW_SETTLEMENT_PAGES",
+            "VIEW_UNMASKED_ACCOUNT_IDENTIFIERS",
+            "VOIDS"
+        ],
+        "risk": {
+            "privilege": [
+                "SYSTEM_REFUND"
+            ]
+        },
+        "secureRemoteCommerce": {
+            "status": "DISABLED"
+        },
+        "service": [
+            "ENABLE_DEVICE_PAYMENTS",
+            "ENABLE_HOSTED_PAYMENT_FORM",
+            "ENABLE_CHECKOUT_VIA_MERCHANT_WEBSITE",
+            "ENABLE_NOTIFICATIONS",
+            "ENABLE_REPORTING_API",
+            "ENABLE_SECURE_REMOTE_COMMERCE",
+            "ENABLE_WEB_SERVICES_API",
+            "ENABLE_MSO_CONFIGURED_TRANSACTION_FILTERING"
+        ],
+        "state": "ENABLED",
+        "systemCapturedCardMaskingFormat": "DISPLAY_6_4",
+        "timeZone": "Europe/London",
+        "tokenization": {
+            "mdesSchemeTokenUsage": "ENABLE_FOR_PRODUCTION_AND_TEST_MERCHANT_PROFILE",
+            "tokenMaintenanceService": false,
+            "tokenRepository": {
+                "tokenGeneration": "PRESERVE_6_4",
+                "tokenManagementStrategy": "UNIQUE_TOKEN"
+            },
+            "tokenRepositoryId": "42069_P64",
+            "verificationStrategy": "BASIC"
+        },
+        "tradingId": "112223344",
+        "tradingName": "Audacity Gaming Pte. Ltd.",
+        "transactionFiltering": {
+            "dynamic3DSecure": false,
+            "ipCountry": {
+                "rejectAnonymousProxy": false,
+                "rejectUnknownCountry": false
+            }
+        },
+        "updated": "2022-06-09T09:56:49.268Z",
+        "webSite": "https://www.audacitygaming.com/"
+    },
+    "result": "SUCCESS"
+}
