@@ -1,7 +1,7 @@
 # 3DS 2.0 Updater
 
 ## What is this?
-An endpoint that loops through a list of mercahnts and enable 3DS 2.0 for each of them.
+An endpoint that loops through a list of merchants and enable 3DS 2.0 for each of them.
 
 ## How to set it up?
 1- Clone the code
